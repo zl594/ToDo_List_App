@@ -1,0 +1,23 @@
+.task-filter {
+  margin-bottom: 15px;
+}
+
+.filter-button {
+  background-color: white;
+  border: none;
+}
+
+.task-filter select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 2px solid #ff9800;
+  background: white;
+  cursor: pointer;
+  color: #ff9800;
+}
+
+.task-filter select:focus {
+  outline: none;
+  border-color: #ff9800;
+}

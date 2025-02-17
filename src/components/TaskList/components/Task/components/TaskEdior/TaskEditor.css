@@ -1,0 +1,39 @@
+.task-editor {
+  display: flex;
+  gap: 10px;
+}
+
+.task-editor input {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #ff9800;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.task-editor button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.task-editor button:first-of-type {
+  background: #4caf50;
+  color: white;
+}
+
+.task-editor button:first-of-type:hover {
+  background: #388e3c;
+}
+
+.task-editor button:last-of-type {
+  background: #f44336;
+  color: white;
+}
+
+.task-editor button:last-of-type:hover {
+  background: #d32f2f;
+}
