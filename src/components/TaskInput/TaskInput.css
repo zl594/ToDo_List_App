@@ -17,6 +17,11 @@
   opacity: 0.7;
 }
 
+.task-input input:focus {
+  outline: none;
+  border-color: #ff9800;
+}
+
 .task-input button {
   background: #ff5722;
   color: white;
